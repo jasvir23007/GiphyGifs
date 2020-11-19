@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Freshworks</string>
+    <string name="retry">Retry</string>
+    <string name="error_msg">Error getting data</string>
+    <string name="viewtype_creation_error">ViewType not declared</string>
+    <string name="app_label">Freshworks</string>
+    <string name="load_data">Load data</string>
+    <string name="add_to_favourites">Add to favourites</string>
+    <string name="saved_favs">saved to favourites</string>
+    <string name="Delete">Delete</string>
+    <string name="deleted_favs">deleted from favourites</string>
+    <string name="favourite_activity_title">Favourite searches</string>
+    <string name="no_data_text">There is no searches in favourites yet.</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+</resources>

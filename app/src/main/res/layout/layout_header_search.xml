@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:contentInsetLeft="0dp"
+    android:contentInsetStart="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetEnd="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetEnd="0dp"
+    android:padding="@dimen/toolbar_margin_size"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/search"
+        android:maxLines="1"
+        android:drawablePadding="@dimen/toolbar_margin_size"
+        android:paddingStart="@dimen/toolbar_margin_size"
+        android:drawableStart="@drawable/ic_search"
+        android:layout_margin="@dimen/toolbar_margin_size"
+        android:background="@drawable/drawable_search"
+        android:id="@+id/et_search"
+         />
+
+
+</androidx.appcompat.widget.Toolbar>
